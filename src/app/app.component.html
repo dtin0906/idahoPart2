@@ -1,0 +1,29 @@
+<h1>
+  Vegan Idaho!
+</h1>
+<h2>
+  Find out the vegan options near you!
+</h2>
+<body>
+    <button (click)="getRestaurants()">Show Restaurants</button>
+<div>
+<table style= 'width: 100%'>
+<tr>
+  <th>Restaurant Name</th>
+  <th>Price Point</th>
+  <th>Location</th>
+  <!-- <th>Hours</th> -->
+</tr>
+<tr *ngFor= 'let restaurant of restaurants' style="text-align:center">
+  <td> {{restaurant.name}} </td>
+  <td> {{restaurant.price}} </td>
+  <td> {{restaurant.location}} <td>
+  <!-- <td> {{restaurant.hours}} </td> -->
+</tr>
+</table>
+</div>
+<!-- <Reasons (click)="getRestaurants()"></Reasons> -->
+<router-outlet></router-outlet> 
+
+
+

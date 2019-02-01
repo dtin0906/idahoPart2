@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #616247;
+    font-size: 450%;
+    background-color: #F0EAD6;
+    background-blend-mode: lighten;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: 'Muli', sans-serif; 
+    color: #616247;
+    font-size: 300%; 
+    background-color: #F0EAD6;
+    border-bottom-color: #616247;
+    font-weight: 200; 
+}
+body {
+    font-family: 'Muli', sans-serif; 
+    color: #616247; 
+    font-size: 200%
+}
+reasons {
+    -moz-border-image: 100%;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 155%;
+    
+}
